@@ -1,6 +1,6 @@
 # Macrometa CloudFlare e-commerce template app
 
-**Live Demo: https://bookstore.macrometadev.workers.dev/**
+**Live Demo: https://bookstore.macrometa.io/**
 
 Macrometa-Cloudflare Bookstore Demo App is a full-stack e-commerce web application that creates a storefront (and backend) for customers to shop for "fictitious" books.
 
