@@ -1,13 +1,18 @@
 name = "bookstore"
 type = "webpack"
-account_id = "b3dad22670b88424da9afddc967218a2"
-workers_dev = true
-route = ""
-zone_id = ""
-vars = { DC_LIST="gdn-us-west", C8_URL="https://gdn.paas.macrometa.io", C8_API_KEY="xxxx" }
+account_id = "xxxx"
+workers_dev = false
+# The ID of the domain to deploying to
+zone_id = "xxxx"
+
+# The route pattern your Workers application will be served at
+route = "bookstore.macrometa.io/*"
+
+vars = { DC_LIST="xxxxx", C8_URL="xxxx", C8_API_KEY="xxxx" }
 kv-namespaces = [
-    { binding = "BOOK_IMAGES", id = "1fcd1c0a7aae4c958bde0606dd090d95" }
+    { binding = "BOOK_IMAGES", id = "XXXX", preview_id="xxxxx" }
 ]
 [site]
 bucket = "./build"
 entry-point = "workers-site"
+

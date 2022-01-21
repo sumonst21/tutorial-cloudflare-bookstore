@@ -79,7 +79,7 @@ export default class PastPurchases extends Component<
           </div>
           {!this.state.isLoading &&
             this.state.orders &&
-            this.state.orders
+            this.state.orders.length>0 &&this.state.orders
               .sort((order1, order2) => order2.orderDate - order1.orderDate)
               .map((order) => (
                 <div className="order-date" key={order._key}>
